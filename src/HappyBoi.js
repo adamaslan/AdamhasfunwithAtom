@@ -4,7 +4,7 @@
 
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-
+import Styled from "styled-components";
 
 
 export default function Ideas({ stuff }) {
@@ -23,6 +23,9 @@ export default function Ideas({ stuff }) {
     <div>
       <p>Ideas</p>
       <button onClick={handleSelect}> "SelectCategory" </button>
+
     </div>
+
+
   );
 }

@@ -3,29 +3,33 @@ import { useStore } from "./redux/store";
 import logo from "./logo.svg";
 import "./App.css";
 import Ideas from "./HappyBoi";
+import styled from "styled-components";
 
-
+const Butt = styled.button`
+  background: palevioletred;
+  border-radius: 3000px;
+  border: black;
+  color: white;
+`
 function App() {
   const store = useStore();
 
   return (
     <Provider store={store}>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Butt> Hiiii</Butt >
+
+
+
     </div>
+
+<Ideas />
+<select>
+  <option value="grapefruit">Grapefruit</option>
+  <option value="lime">Lime</option>
+  <option selected value="coconut">Coconut</option>
+  <option value="mango">Mango</option>
+</select>
     </Provider>
      );
    }
