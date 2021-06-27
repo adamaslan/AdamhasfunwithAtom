@@ -24,6 +24,8 @@ function App() {
     </div>
 
 <Ideas />
+
+//choose the theme u want 
 <select>
   <option value="grapefruit">Grapefruit</option>
   <option value="lime">Lime</option>
