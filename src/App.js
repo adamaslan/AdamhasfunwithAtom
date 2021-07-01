@@ -4,6 +4,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Ideas from "./HappyBoi";
 import styled from "styled-components";
+import Selection from "./Selection";
+
 
 const Butt = styled.button`
   background: palevioletred;
@@ -24,14 +26,9 @@ function App() {
     </div>
 
 <Ideas />
+<Selection />
+//choose the theme u want
 
-//choose the theme u want 
-<select>
-  <option value="grapefruit">Grapefruit</option>
-  <option value="lime">Lime</option>
-  <option selected value="coconut">Coconut</option>
-  <option value="mango">Mango</option>
-</select>
     </Provider>
      );
    }
