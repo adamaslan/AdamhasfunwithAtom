@@ -27,7 +27,6 @@ function App() {
 
 <Ideas />
 <Selection />
-//choose the theme u want
 
     </Provider>
      );
