@@ -5,6 +5,7 @@ import "./App.css";
 import Ideas from "./HappyBoi";
 import styled from "styled-components";
 import Selection from "./Selection";
+import Statey1  from "./Statey";
 
 
 const Butt = styled.button`
@@ -22,7 +23,7 @@ function App() {
   <Butt> Hiiii</Butt >
 
 
-
+<Statey1 />
     </div>
 
 <Ideas />
