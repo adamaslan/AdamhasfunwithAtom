@@ -6,6 +6,8 @@ import Ideas from "./HappyBoi";
 import styled from "styled-components";
 import Selection from "./Selection";
 import Statey1  from "./Statey";
+import Select from "react-select";
+import makeAnimated from "react-select/animated";
 
 
 const Butt = styled.button`
