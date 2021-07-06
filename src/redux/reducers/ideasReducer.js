@@ -21,7 +21,7 @@ const initialState = {
 const ideasReducer = (state = initialState, action) => {
   switch (action.type) {
     case "SelectCategory": {
-      const result = state.data.filter((item) => item[1] == action.payload);
+      const result = state.data.filter((item) => item[2] == action.payload);
       return {
         ...state,
         selected: result,

@@ -16,7 +16,7 @@ export default function Ideas({ stuff }) {
   const handleSelect = () => {
     dispatch({
       type: "SelectCategory",
-      payload: "fun",
+      payload: "positive",
     });
   };
   return (
