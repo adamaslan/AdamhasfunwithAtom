@@ -9,6 +9,14 @@ import Statey1  from "./Statey";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  grid-template-areas: auto;
+  justify-content: space-around;
+`;
 
 const Butt = styled.button`
   background: palevioletred;
@@ -21,6 +29,7 @@ function App() {
 
   return (
     <Provider store={store}>
+<Grid>
     <div className="App">
   <Butt> Hiiii</Butt >
 
@@ -30,7 +39,7 @@ function App() {
 
 <Ideas />
 <Selection />
-
+</Grid>
     </Provider>
      );
    }
