@@ -16,6 +16,8 @@ const Grid = styled.div`
   grid-gap: 5px;
   grid-template-areas: auto;
   justify-content: space-around;
+
+ background: grey;
 `;
 
 const Item = styled.div`
@@ -24,6 +26,11 @@ const Item = styled.div`
   border: 5px solid black;
   border-radius: 9px;
   justify-content: center;
+  min-height: 100px;
+ background: orange;
+ flex: calc(100% / 3);
+ text-align: center;
+ line-height: 100px;
 `;
 
 const Butt = styled.button`
@@ -50,8 +57,8 @@ function App() {
     </div>
 <Item>
 <Ideas />
-</Item>
-<Selection />
+</Item><Item>
+<Selection /> </Item>
 </Grid>
     </Provider>
      );
