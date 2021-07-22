@@ -4,7 +4,8 @@
 
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import Styled from "styled-components";
+
+
 
 
 export default function Ideas({ stuff }) {
