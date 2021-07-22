@@ -18,6 +18,14 @@ const Grid = styled.div`
   justify-content: space-around;
 `;
 
+const Item = styled.div`
+  display: flex;
+  padding: 0.5 rem;
+  border: 5px solid black;
+  border-radius: 9px;
+  justify-content: center;
+`;
+
 const Butt = styled.button`
   background: palevioletred;
   border-radius: 3000px;
@@ -31,13 +39,18 @@ function App() {
     <Provider store={store}>
 <Grid>
     <div className="App">
+
+<Item>
   <Butt> Hiiii</Butt >
+</Item>
 
-
+<Item>
 <Statey1 />
+</Item>
     </div>
-
+<Item>
 <Ideas />
+</Item>
 <Selection />
 </Grid>
     </Provider>
